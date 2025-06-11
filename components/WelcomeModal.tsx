@@ -82,12 +82,12 @@ export default function WelcomeModal() {
                 boxShadow: "0 0 15px #00ffff",
               }}
             >
-              <div className="w-16 h-16 flex-shrink-0 mr-4">
+              <div className="w-24 h-24 flex-shrink-0 mr-4">
                 <Image
                   src={casino.logo || "/placeholder.svg"}
                   alt={casino.name}
-                  width={64}
-                  height={64}
+                  width={180}
+                  height={90}
                   className="rounded"
                 />
               </div>
