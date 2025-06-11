@@ -4,9 +4,7 @@ import CasinoCard from "../components/CasinoCard"
 import SpotlightSection from "../components/SpotlightSection"
 import TrendingBonuses from "../components/TrendingBonuses"
 import CasinoStatsSection from "../components/CasinoStatsSection"
-import BonusHunterSection from "../components/BonusHunterSection"
 import PaymentMethodsSection from "../components/PaymentMethodsSection"
-import CasinoNewsSection from "../components/CasinoNewsSection"
 import SafeGamblingSection from "../components/SafeGamblingSection"
 import GameTypesSection from "../components/GameTypesSection"
 import Footer from "../components/Footer"
@@ -65,10 +63,8 @@ export default function HomePage() {
 
       <SpotlightSection />
       <CasinoStatsSection />
-      <BonusHunterSection />
       <TrendingBonuses />
       <PaymentMethodsSection />
-      <CasinoNewsSection />
       <SafeGamblingSection />
       <GameTypesSection />
       <Footer />
