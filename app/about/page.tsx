@@ -103,26 +103,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Our Team */}
-      <section
-        className="py-12"
-        style={{
-          background: "linear-gradient(180deg, #000000 0%, #330066 50%, #000000 100%)",
-        }}
-      >
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2
-              className="text-2xl sm:text-3xl font-bold mb-4 text-white"
-              style={{
-                textShadow: "0 0 20px #ff00ff",
-              }}
-            >
-              👥 Meet Our Expert Team
-            </h2>
-          </div>
-        </div>
-      </section>
 
       {/* Achievements */}
       <section className="py-12">
