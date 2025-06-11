@@ -3,27 +3,6 @@ import Footer from "../../components/Footer"
 import { Users, Award, Shield, Target, CheckCircle } from "lucide-react"
 
 export default function AboutPage() {
-  const teamMembers = [
-    {
-      name: "Seán O'Connor",
-      role: "Lead Casino Expert",
-      experience: "12+ years",
-      specialty: "Bonus Analysis & Game Testing",
-    },
-    {
-      name: "Aoife Murphy",
-      role: "Safety & Compliance Officer",
-      experience: "8+ years",
-      specialty: "Licensing & Player Protection",
-    },
-    {
-      name: "Liam Walsh",
-      role: "Technical Reviewer",
-      experience: "10+ years",
-      specialty: "Mobile Gaming & Software",
-    },
-  ]
-
   const achievements = [
     {
       icon: <Award size={32} />,
@@ -141,49 +120,6 @@ export default function AboutPage() {
             >
               👥 Meet Our Expert Team
             </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="p-6 rounded-xl text-center"
-                style={{
-                  background: "rgba(10, 10, 42, 0.8)",
-                  border: "2px solid #ff00ff",
-                  boxShadow: "0 0 20px #ff00ff",
-                }}
-              >
-                <div
-                  className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center"
-                  style={{
-                    background: "linear-gradient(135deg, #ff00ff, #9d00ff)",
-                    boxShadow: "0 0 20px #ff00ff",
-                  }}
-                >
-                  <Users size={32} className="text-white" />
-                </div>
-                <h3
-                  className="text-lg font-bold text-white mb-2"
-                  style={{
-                    textShadow: "0 0 10px #ff00ff",
-                  }}
-                >
-                  {member.name}
-                </h3>
-                <p
-                  className="text-sm mb-2"
-                  style={{
-                    color: "#ff00ff",
-                    textShadow: "0 0 5px #ff00ff",
-                  }}
-                >
-                  {member.role}
-                </p>
-                <p className="text-gray-300 text-sm mb-2">{member.experience} experience</p>
-                <p className="text-gray-400 text-xs">{member.specialty}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
